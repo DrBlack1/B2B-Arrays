@@ -4,7 +4,7 @@
   "description": "Back 2 Basics : A quick code kata around arrays, wrote in javascript, with some unit test support to ensure completion",
   "main": ".\\src\\script.js",
   "scripts": {
-    "debugger":"node ./src/script.js",
+    "debugger": "node ./src/script.js",
     "test": "jest"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "homepage": "https://gitlab.com/aidenpoulton/b2b-arrays#readme",
   "devDependencies": {
     "jest": "^24.5.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.1.2"
   }
 }
